@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anbu SK Raju  - Software Engineer & Innovator</title>
+  <title>Anbu Saravana Kumar - Observability Solution Architect</title>
   <style>
-    /* Basic reset and styling */
+    /* Basic Reset & Global Styles */
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       background: #f4f4f4;
       color: #333;
       line-height: 1.6;
@@ -17,134 +17,239 @@
     header {
       background: #005f73;
       color: #fff;
-      padding: 60px 20px;
+      padding: 20px 0;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2.8em;
+      font-size: 2.5em;
     }
     header p {
+      margin: 5px 0;
       font-size: 1.2em;
-      margin-top: 10px;
+    }
+    .contact-info {
+      margin: 10px 0;
+    }
+    .contact-info a {
+      color: #0a9396;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
     }
     nav {
       background: #0a9396;
+      overflow: auto;
     }
     nav ul {
       list-style: none;
       padding: 0;
       margin: 0;
-      display: flex;
-      justify-content: center;
+      text-align: center;
     }
     nav ul li {
-      margin: 0 15px;
+      display: inline;
     }
     nav ul li a {
       color: #fff;
       text-decoration: none;
-      padding: 15px;
-      display: block;
+      padding: 15px 20px;
+      display: inline-block;
     }
     nav ul li a:hover {
       background: #94d2bd;
       color: #005f73;
     }
     .container {
-      max-width: 960px;
+      width: 90%;
+      max-width: 1200px;
       margin: 20px auto;
       padding: 20px;
       background: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     section {
-      padding: 40px 0;
+      margin: 20px 0;
+      padding: 20px 0;
       border-bottom: 1px solid #ddd;
     }
-    section:last-of-type {
+    section:last-child {
       border-bottom: none;
     }
     h2 {
       color: #005f73;
+      margin-bottom: 10px;
+    }
+    .skills ul, .industries ul, #education ul {
+      list-style: disc inside;
+      margin: 0;
+      padding-left: 20px;
+    }
+    .work-experience .job {
       margin-bottom: 20px;
     }
-    ul.skills {
-      list-style: none;
-      padding: 0;
+    .job h3 {
+      margin: 0;
+      color: #0a9396;
     }
-    ul.skills li {
-      background: #e9d8a6;
-      margin: 10px 0;
-      padding: 10px;
-      border-radius: 4px;
+    .job .duration {
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    .job ul {
+      list-style: circle inside;
+      margin: 10px 0 0 20px;
     }
     footer {
-      background: #005f73;
-      color: #fff;
       text-align: center;
       padding: 20px;
-    }
-    a.email-link {
-      color: #0a9396;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a.email-link:hover {
-      text-decoration: underline;
+      background: #005f73;
+      color: #fff;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Anburaju</h1>
-    <p>Software Engineer | Innovator | Problem Solver</p>
+    <h1>Anbu Saravana Kumar</h1>
+    <p>Observability Solution Architect</p>
+    <div class="contact-info">
+      <p>Phone: +91 994-365-2499 | Email: <a href="mailto:anbu001mail@gmail.com">anbu001mail@gmail.com</a></p>
+    </div>
   </header>
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skillset</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
     </ul>
   </nav>
   <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
+    <!-- Summary Section -->
+    <section id="summary">
+      <h2>Summary</h2>
       <p>
-        Hello, I'm Anburaju—a seasoned software engineer dedicated to crafting innovative solutions and leading transformative projects. With a strong background in full-stack development, cloud computing, and agile methodologies, I thrive in challenging environments where creativity meets technology. My passion for continuous learning and collaboration drives me to explore emerging technologies and consistently deliver high-quality results.
+        Observability Solution Architect with 13 years of total experience – 5 years in cloud observability and 8 years in enterprise systems monitoring, application performance monitoring, infrastructure monitoring, and network monitoring tools. Passionate about evangelizing open telemetry, AI, and machine learning in the observability space to help customers adopt next-generation monitoring solutions.
       </p>
     </section>
+    <!-- Skills Section -->
     <section id="skills">
-      <h2>Unique Skillsets & Advantages</h2>
-      <ul class="skills">
-        <li><strong>Full-Stack Expertise:</strong> Proficient in both front-end and back-end development to create seamless, scalable solutions.</li>
-        <li><strong>Innovative Problem Solving:</strong> Adept at transforming complex challenges into clear, actionable strategies.</li>
-        <li><strong>Agile & Collaborative:</strong> Experienced in agile methodologies, ensuring efficient teamwork and project success.</li>
-        <li><strong>Cloud & DevOps:</strong> Skilled in leveraging cloud platforms and DevOps practices to enhance performance and reliability.</li>
-        <li><strong>Open Source Contributor:</strong> Actively engaged in the open-source community, continuously learning and sharing expertise.</li>
-      </ul>
+      <h2>Skills</h2>
+      <div class="skills">
+        <ul>
+          <li>Observability</li>
+          <li>Open Telemetry</li>
+          <li>Application Performance Monitoring</li>
+          <li>Log Analysis</li>
+          <li>Systems Monitoring</li>
+          <li>Distributed Tracing</li>
+          <li>Network Monitoring</li>
+          <li>Cloud Infrastructure (IaaS)</li>
+          <li>Python</li>
+          <li>Pre-sales</li>
+          <li>Solution Architecture</li>
+          <li>Data Science and Machine Learning</li>
+        </ul>
+      </div>
     </section>
-    <section id="projects">
-      <h2>Projects & Portfolio</h2>
-      <p>
-        Explore my portfolio to see how I apply my skills to build innovative and practical solutions. From dynamic web applications to robust backend systems, my projects highlight a blend of creativity and technical excellence.
-      </p>
+    <!-- Customer Industry Use Cases -->
+    <section id="industries">
+      <h2>Customer Industry Use Cases</h2>
+      <div class="industries">
+        <ul>
+          <li>Banking</li>
+          <li>Telecom</li>
+          <li>Insurance</li>
+          <li>Government Organizations</li>
+          <li>Retail and Supply Chain</li>
+          <li>Food and Beverage</li>
+          <li>Manufacturing</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2>Employment Summary & Work Experience</h2>
+      <div class="work-experience">
+        <!-- Tesco -->
+        <div class="job">
+          <h3>Tesco</h3>
+          <p class="duration">June 2022 – Present | Observability SE 2</p>
+          <ul>
+            <li>Part of the Observability Centre of Excellence team at Tesco Technologies.</li>
+            <li>Implementing monitoring strategies across 100+ microservices and legacy applications.</li>
+            <li>Driving the adoption of monitoring tools and defining key top-level metrics.</li>
+            <li>Serving as Technical Point of Contact for migration to next-generation observability.</li>
+            <li>Guiding application instrumentation and distributed tracing for Java, Node.js, .NET, and Go.</li>
+            <li>Creating dashboards and best practice documentation for observability.</li>
+            <li>Supporting operational escalations in tools like New Relic, AppDynamics, and Run Scope API Monitoring.</li>
+          </ul>
+        </div>
+        <!-- Oracle -->
+        <div class="job">
+          <h3>Oracle</h3>
+          <p class="duration">Feb 2017 – June 2022 | Senior Cloud Specialist</p>
+          <ul>
+            <li>Identified use cases, provided technical qualification, and advised on solution architecture for observability solutions.</li>
+            <li>Enhanced customer visibility with application performance monitoring, log analytics, and infrastructure monitoring tools.</li>
+            <li>Conducted workshops, hands-on sessions, and onboarding for customers, partners, and ISVs.</li>
+            <li>Managed knowledge repositories and reusable assets for adaptable customer solutions.</li>
+            <li>Served as the technical point of contact for customers and sales on cloud solutions.</li>
+          </ul>
+        </div>
+        <!-- HCL Technologies -->
+        <div class="job">
+          <h3>HCL Technologies</h3>
+          <p class="duration">Jan 2015 – Feb 2017 | Associate Consultant</p>
+          <ul>
+            <li>Led the Tools Tower for the Stanford Health Care project, overseeing data center operations with enterprise monitoring and event management tools.</li>
+            <li>Gathered requirements, designed solutions, and integrated various monitoring tools including AppDynamics, SCOM, EMC SRM, and more.</li>
+            <li>Integrated monitoring tools with Netcool Omnibus and ServiceNow to enable enhanced event management and auto ticketing.</li>
+          </ul>
+        </div>
+        <!-- Mphasis Ltd -->
+        <div class="job">
+          <h3>Mphasis Ltd</h3>
+          <p class="duration">Mar 2011 – Jan 2015 | Lead Infrastructure Engineer</p>
+          <ul>
+            <li>Supported implementation and operations for Aviva UK's enterprise applications and infrastructure monitoring.</li>
+            <li>Deployed IBM’s APM tools, developed robotic scripts for proactive application monitoring, and created dashboards for system health.</li>
+            <li>Served as the focal point for troubleshooting ITCAM-related issues and managing emergency tools outages.</li>
+          </ul>
+        </div>
+        <!-- IBM India Pvt Ltd -->
+        <div class="job">
+          <h3>IBM India Pvt Ltd</h3>
+          <p class="duration">Dec 2009 – Dec 2010 | Tools Administrator</p>
+          <ul>
+            <li>Supported Vodafone India's data center operations with Tivoli Monitoring and Netcool Omnibus.</li>
+            <li>Deployed and upgraded Tivoli Monitoring across data centers and configured the Tivoli data warehouse.</li>
+          </ul>
+        </div>
+        <!-- OUTWORX Solutions (Deputed to IBM) -->
+        <div class="job">
+          <h3>OUTWORX Solutions (Deputed to IBM)</h3>
+          <p class="duration">July 2009 – Dec 2009 | Tools Administrator</p>
+          <ul>
+            <li>Provided end-to-end support for Vodafone data center operations with Tivoli Monitoring and Netcool Omnibus.</li>
+            <li>Installed, configured, and troubleshooted various Tivoli Monitoring components.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
       <ul>
-        <li><a href="#">Project One</a> - Enhancing user engagement with innovative design.</li>
-        <li><a href="#">Project Two</a> - Optimizing workflows through cloud-based solutions.</li>
-        <li><a href="#">Project Three</a> - A collaborative project showcasing agile development and cutting-edge technologies.</li>
+        <li><strong>MTECH in Data Science and Machine Learning</strong> – PES University, India (2023)</li>
+        <li><strong>Bachelor of Engineering in Information Technology</strong> – Annamalai University, India (2007)</li>
       </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Let's connect! Reach out via email at <a class="email-link" href="mailto:your.email@example.com">your.email@example.com</a> or visit my <a href="https://www.linkedin.com/in/anburaju/" target="_blank">LinkedIn Profile</a> for more details.
-      </p>
     </section>
   </div>
   <footer>
-    <p>&copy; 2025 Anburaju. All rights reserved.</p>
+    <p>&copy; 2025 Anbu Saravana Kumar. All rights reserved.</p>
   </footer>
 </body>
 </html>
